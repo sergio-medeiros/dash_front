@@ -22,10 +22,10 @@ function carregaDadosDepto(){
 }
 
 function preenche(res){
-    console.log(res);    
+    console.log(resp);    
     var linha = "";
-    for (i=0; i<res.listaUsuarios.length; i++){
-        var user = res.listaUsuarios[i];
+    for (i=0; i<resp.listaUsuarios.length; i++){
+        var user = resp.listaUsuarios[i];
         linha = linha + templateUser.replace("**NOME**",user.nome)
                                     .replace("**EMAIL**",user.email)
                                     .replace("**RACF**", user.racf);

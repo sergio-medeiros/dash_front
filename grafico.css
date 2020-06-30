@@ -1,0 +1,17 @@
+#grafico{
+    <style>
+        .pieContainer {
+            height: 100px;
+        }
+        .pieBackground{
+            background-color: grey;
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            -moz-border-radius: 50px;
+
+            
+
+        }
+    </style>
+}
