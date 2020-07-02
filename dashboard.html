@@ -13,26 +13,40 @@
             </div>
             <div id="conteudo">
             </div>
-            <div class="card text-white bg-success mb-3" style="max-width: 16rem;">
-                <div class="card-header">Transações com Sucesso</div>
-                <div class="card-body">
-                  <h5 class="card-title" id="sucesso"></h5>
-                </div>
+            <br/><br/><br/><br/><br/><br/>
+            <!--Adicionando dropdown-->
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Parceiros
+              </button>
+              <div class="dropdown-menu" id="parceiros" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" id="parceiros" href="#"></a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
             </div>
-            <div class="card text-white bg-warning mb-3" style="max-width: 16rem;">
-                <div class="card-header">Transações com Falha</div>
+            <br/>
+            <!-- mudnça no formato-->
+            <div class="card-group">
+              <div class="card text-white bg-success mb-3">
                 <div class="card-body">
-                  <h5 class="card-title" id="falha">/h5>
+                  <h5 class="card-title text-center">Transações com Sucesso</h5>
+                  <p class="card-text text-center" id="sucesso"></p>
                 </div>
               </div>
-            <div class="card text-white bg-danger mb-3" style="max-width: 16rem;">
-                <div class="card-header">Possiveis Fraudes</div>
+              <div class="card text-white bg-warning mb-3">
                 <div class="card-body">
-                  <h5 class="card-title"id="fraude"></h5>
+                  <h5 class="card-title text-center">Transações com Falha</h5>
+                  <p class="card-text text-center" id="falha"></p>
                 </div>
               </div>
-        </div>
-
+              <div class="card text-white bg-danger mb-3">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Transações de Possiveis Fraudes</h5>
+                  <p class="card-text text-center" id="fraude"></p>
+                </div>
+              </div>
+            </div>
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
